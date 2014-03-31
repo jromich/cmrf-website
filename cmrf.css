@@ -1,0 +1,320 @@
+/**************** Body and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+body{
+	line-height:1.4em;
+	text-align:center;
+	color:#303030;
+	font-family: Georgia, Times, serif;
+	font-size: 90%;
+	/*background: #DFE3FF url(images/bgblue.gif) top center repeat-y;*/
+	background: #DBDDEA url(images/b2.gif) repeat-x top left;
+	}
+
+a{
+color:#6769AD;
+font-weight:bold;
+text-decoration:none;
+background-color:inherit;
+}
+
+a:hover{color:#5252fc; text-decoration:none; background-color:inherit;}
+a img{border:none;}
+
+p{padding:0 0 1.6em 0;}
+p form{margin-top:0; margin-bottom:20px;}
+
+img.left,img.center,img.right{padding:4px; border:1px solid #a0a0a0;}
+img.left{float:left; margin:0 12px 5px 0;}
+img.center{display:block; margin:0 auto 5px auto;}
+img.right{float:right; margin:0 0 5px 12px;}
+
+/**************** Header and navigation styles ****************/
+
+#container{
+width:758px;
+margin:15px auto;
+padding: 1px 0;
+text-align:left;
+background: #fff;
+color:#303040;
+border:0px solid #a0a0a0;
+}
+
+#header{
+
+	height:224px;
+	width:758;
+	padding:10px 10px 0 10px;
+	margin:0 1px 4px 1px;
+	color:#ffffff;
+	background: #fff url(images/top.jpg) no-repeat
+}
+
+#header h1{
+text-align:left;
+padding:15px 0 0 0px;
+font-size:2.0em;
+color:#fff;
+letter-spacing:.8px;
+font-weight:normal;
+}
+
+#header h2{
+font-family: helvetica, arial, san-serif;
+text-align:left;
+margin:20px 0 0 0px;
+font-size:.9em;
+color:#fff;
+letter-spacing:3px;
+font-weight:strong	;
+}
+
+#navigation{
+	height:2em;
+	line-height:2em;
+	width:756px;
+	margin:0px 0px 1px 1px;
+
+	background:#2f2f90;
+}
+
+#navigation li{
+float:left;
+list-style-type:none;
+border-right:4px solid #ffffff;
+white-space:nowrap;	
+}
+
+#navigation li a{
+display:block;
+padding:0 10px;
+font-size:0.8em;
+font-weight:normal;
+text-transform:uppercase;
+text-decoration:none;
+background-color:inherit;
+color: #FFFFFF;
+}
+
+* html #navigation a {width:1%;}
+
+#navigation .selected,#navigation a:hover{
+	color:#ffffff;
+	text-decoration:none;
+	background-color: #5252fc;
+}
+
+
+
+
+/**************** sub nav ****************/
+#subnavigation{
+	height:1.5em;
+	line-height:1.5em;
+	width:756px;
+    margin:0 1px 4px 1px;
+	background:#2f2f90;
+	border-top:4px solid #fff;
+	border-bottom:4px solid #fff;
+}
+
+#subnavigation li{
+float:left;
+list-style-type:none;
+white-space:nowrap;
+
+}
+
+#subnavigation li a{
+display:block;
+padding:0 10px;
+font-size:0.8em;
+font-weight:normal;
+text-decoration:none;
+background-color:inherit;
+border-right:4px solid #fff;
+color: #ffffff;
+
+}
+
+* html #subnavigation a {width:1%;}
+
+#subnavigation .selected, #subnavigation a:hover{
+	color:#ffffff;
+	text-decoration:none;
+	background-color: #5252fc;
+}
+
+#submenubar hr{
+	color:#18189b;
+	height: 4px;
+	background-color: #2f2f90;
+	border: none;
+}
+
+
+
+/**************** Content styles ****************/
+
+#content{
+float:left;
+width:530px;
+font-size:1.0em;
+padding:20px 0 0 20px;
+text-align:justify;
+}
+
+#content h2{
+line-height:1.1em;
+display:block;
+margin:0 0 16px 0;
+font-size:1.5em;
+font-weight:normal;
+letter-spacing:-1px;
+color:#2f2f90;
+text-align:left;
+background-color:inherit;
+}
+
+
+#content h2 a{font-weight:normal;}
+#content h3{margin:0 0 5px 0; font-size:1.3em; letter-spacing:-1px;font-weight:normal;}
+#content h3{margin:0 0 5px 0; font-size:1.3em; letter-spacing:-1px;font-weight:normal;}
+#content h4{margin:0 0 5px 0; font-size:1.2em; letter-spacing:-1px;font-weight:normal; font-style: italic}
+#content a:hover,#subcontent a:hover{text-decoration:underline;}
+#content ul,#content ol{margin:0 5px 16px 35px; text-align:left;}
+#content dl{margin:0 5px 10px 25px;}
+#content dt{font-weight:bold; margin-bottom:5px;}
+#content dd{margin:0 0 10px 15px;}
+
+/**************** Sidebar styles ****************/
+
+#subcontent{
+float:right;
+width:150px;
+padding:20px 20px 10px 0;
+line-height:1.4em;
+}
+
+#subcontent h2{
+display:block;
+margin:0 0 15px 0;
+font-size:1.6em;
+font-weight:normal;
+text-align:left;
+letter-spacing:-1px;
+color:#2f2f90;
+background-color:inherit;
+}
+
+#subcontent p{margin:0 0 16px 0; font-size:0.9em;}
+
+/**************** Menublock styles ****************/
+
+.menublock{margin:0 0 20px 8px; font-size:0.9em;}
+.menublock li{list-style:none; display:block; padding:2	px; margin-bottom:2px;}
+.menublock li a{font-weight:normal; text-decoration:none;}
+.menublock li a:hover{text-decoration:none;}
+.menublock li ul{margin:3px 0 3px 15px; font-size:1em; font-weight:normal;}
+.menublock li ul li{margin-bottom:0;}
+.menublock li ul a{font-weight:normal;}
+
+/**************** Searchbar styles ****************/
+
+#searchbar{margin:0 0 20px 0;}
+#searchbar form fieldset{margin-left:10px; border:0 solid;}
+
+#searchbar #s{
+height:1.2em;
+width:110px;
+margin:0 5px 0 0;
+border:1px solid #a0a0a0;
+}
+
+#searchbar #searchbutton{
+width:auto;
+padding:0 1px;
+border:1px solid #808080;
+font-size:0.9em;
+text-align:center;
+}
+
+/**************** Footer styles ****************/
+
+#footer{
+	clear:both;
+	width:756px;
+	padding:5px 0;
+	margin:0 1px;
+	font-size:0.9em;
+	color:#f0f0f0;
+	background-color: #2f2f90;
+}
+
+#footer p{padding:0; margin:0; text-align:center;}
+#footer a{color:#f0f0f0; background-color:inherit; font-weight:bold;}
+#footer a:hover{color:#ffffff; background-color:inherit; text-decoration: underline;}
+
+/**************** Misc classes and styles ****************/
+
+.splitcontentleft{float:left; width:48%;}
+.splitcontentright{float:right; width:48%;}
+.clear{clear:both;}
+.small{font-size:0.85em;}
+.hide{display:none;}
+.textcenter{text-align:center;}
+.textright{text-align:right;}
+.important{color:#f02025; background-color:inherit; font-weight:bold;}
+.caption{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 0.85em;
+	line-height:1.4em;
+	}
+
+.box{
+margin:0 0 20px 0;
+padding:10px;
+border:1px solid #c0c0c8;
+background-color:#fafbfc;
+color:#505050;
+line-height:1.5em;
+}
+
+.photo{
+padding: 5px;
+display: block;
+margin: 0 auto 15px auto;
+border: 1px solid #D9E0E6;
+border-bottom-color: #C8CDD2;
+border-right-color: #C8CDD2;
+background: #fff;
+}
+
+.floatphoto{
+float:right; 
+padding: 5px;
+display: block;
+margin: 5px 0px 25px 25px;
+border: 1px solid #D9E0E6;
+border-bottom-color: #C8CDD2;
+border-right-color: #C8CDD2;
+background: #fff;
+}
+
+.box2 {
+     font-size: 15px;
+     margin: 2px 2px 2px 2px;
+     padding: 4px;
+     width: 1em;
+     height: 1em;
+     border: 1px solid black;
+     text-align: center;
+     font-family: helvetica, arial, san-serif;
+}
+
+
+
+/* inspiration and starting stylesheet taken from http://andreasviklund.com. Andreas8 Version: 1.0, November 28, 2005 */
