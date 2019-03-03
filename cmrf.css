@@ -1,9 +1,6 @@
 /**************** Body and tag styles ****************/
 * { margin: 0; padding: 0; }
-body { line-height: 1.4em; text-align: center; color: #303030; font-family: Georgia, Times, serif;	/*font-size: 90%;*/	/*background: url(images/bggray.gif) top center repeat-y;*/
-
-	/*background: #DBDDEA url(images/b2.gif) repeat-x top left;*/
-background: #575a69; }
+body { line-height: 1.4em; text-align: center; color: #303030; font-family: Georgia, Times, serif;	/*font-size: 90%;*/	/*background: url(images/bggray.gif) top center repeat-y;*/background: #3c4556; }
 a { color: #6769AD; font-weight: bold; text-decoration: none; background-color: inherit; }
 a:hover { color: #3f51b5; text-decoration: none; background-color: inherit; }
 a img { border: none; }
